@@ -49,6 +49,7 @@
       out.write(bytes);
       ```
     - 스트림을 활용해 파일을 끊어서 읽는 코드 적용해야함 스트림 ??
+      - 스트림은 JAVA에서 제공하는 Class로 파일, 네트워크, 메모리 등에서 데이터를 쪼개서 흘려보내고 읽는 데이터 통로
       ```java
       InputStream is = Files.newInputStream(Path.of("path"));
       byte[] buffer = new byte[8192] // 8KB 메모리
